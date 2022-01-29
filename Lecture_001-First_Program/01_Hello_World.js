@@ -1,4 +1,4 @@
 console.log('Hello World')
 
-Output:
-Hello World
+// Output:
+// Hello World
