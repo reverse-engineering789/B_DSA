@@ -1,0 +1,1 @@
+// find the number of 10, 20 , 50  , 100 rupee notes in 1242 rupees. 
