@@ -16,7 +16,7 @@ console.log('value at index 15:' + number[15])
 
 
 
-acceccing the values of an array: 
+// acceccing the values of an array: 
 
 let second = [1,2,3,4,5]
 
