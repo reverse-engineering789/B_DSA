@@ -20,3 +20,6 @@ console.log('the unique element in test2 is: ' + findUnique(test2))
 // Output:
 // the unique element in test1 is: 4
 // the unique element in test2 is: 10
+
+
+
