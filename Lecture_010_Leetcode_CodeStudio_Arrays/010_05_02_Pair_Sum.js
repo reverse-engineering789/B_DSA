@@ -1,4 +1,4 @@
-// gfg
+// gfg -  Print all pairs with given sum
 // JavaScript implementation of simple method to
 // find print pairs with given sum.
 
