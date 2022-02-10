@@ -12,6 +12,7 @@ console.log(size)
 
 
 1.
+2.
 9.
 10.
 11.
