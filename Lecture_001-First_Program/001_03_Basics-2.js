@@ -1,47 +1,13 @@
-a = 1
-b = 2
-console.log(a == b)
+let a = 2 
+let b = 5
+console.log(a/b)
+
+// OUtput:
+// 0.4
+
+let c = 2.0
+let d = 5 
+console.log(c/d)
 
 // Output:
-// false
-//---------------------------------------------
-a = 1
-b = 2
-console.log(a >= b)
-
-// Output:
-// false
-//---------------------------------------------
-a = 1
-b = 2
-console.log(a <= b)
-
-// Output:
-// true
-
-//---------------------------------------------
-a = 1
-b = 2
-console.log(a < b)
-
-// Output:
-// true
-//---------------------------------------------
-
-a = 1
-b = 2
-console.log(a > b)
-
-// Output:
-// false
-
-
-//----------------------------------------------
-
-
-a = 1
-b = 2
-console.log(a != b)
-
-//Output: 
-//true
+// 0.4
