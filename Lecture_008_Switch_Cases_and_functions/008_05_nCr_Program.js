@@ -10,7 +10,8 @@ let nCr = (n , r) => {
     num = factorial(n)
      denom = factorial(r) * factorial(n-r)
      return num/denom
-}
+
+    }
 
 
     let  n = 4
