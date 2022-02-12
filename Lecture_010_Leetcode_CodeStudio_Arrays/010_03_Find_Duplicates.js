@@ -20,3 +20,5 @@ console.log('The duplicate element in arr2: ' + findDuplicate(arr2))
 // Output:
 // The duplicate element in arr1: 1
 // The duplicate element in arr2: 3
+
+
