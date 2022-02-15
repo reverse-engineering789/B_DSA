@@ -3,6 +3,8 @@
 // time coplexity best and worst case: O(n^2)
 // space complextity: O(1)
 
+// selection sort is NOT a stable algorithm
+
 let swap = (arr, minIndex, i) => {
     let temp = arr[minIndex]
     arr[minIndex] = arr[i]
