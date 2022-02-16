@@ -58,3 +58,4 @@ let test1 = [7,8,1,3,5]
 let check = findPostion(test1)
 
 console.log(check)
+
