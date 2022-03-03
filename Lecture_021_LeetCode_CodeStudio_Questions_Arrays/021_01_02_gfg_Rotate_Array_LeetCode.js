@@ -1,3 +1,5 @@
+// not able to understand the logic:
+
 //LeetCode: Rotate Array
 
 // this code is little difficult, and approach is also little complex 
