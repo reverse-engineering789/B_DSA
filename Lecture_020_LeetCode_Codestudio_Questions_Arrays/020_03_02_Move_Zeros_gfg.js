@@ -29,5 +29,5 @@ function pushZerosToEnd(arr, n)
 	for (let i = 0; i < n; i++)
 		document.write(arr[i] + " ");
 
-// This code is contributed by Surbhi Tyagi.
-
+  
+  
