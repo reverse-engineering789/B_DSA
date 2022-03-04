@@ -1,4 +1,4 @@
-// 021_02_L_B_Check_Array_is_Sorted_and_Rotated.js
+// 021_03_L_B_Add_Two_Arrays.js
 
 
 // getting error while executing the code. Not able to run the code.
