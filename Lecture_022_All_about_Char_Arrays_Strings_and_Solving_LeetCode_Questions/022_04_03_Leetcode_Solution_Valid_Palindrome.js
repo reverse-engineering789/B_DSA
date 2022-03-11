@@ -1,3 +1,10 @@
+// 022_04_03_Leetcode_Solution_Valid_Palindrome.js
+
+
+// Not able to understand:    
+//  s = s.replace(/[^a-zA-Z0-9]/g,'')
+
+
 // LeetCode: 
 
 // Valid Palindrome
@@ -34,15 +41,21 @@
 // 1 <= s.length <= 2 * 105
 // s consists only of printable ASCII characters.
 
+
 var isPalindrome = function(s) {
-    s = s.replace(/[^a-zA-Z0-9]/g,'')
-    s = s.toLowerCase()
-    for (let [i,j]=[0,s.length-1]; i<j;) {
-        if (s[i]!=s[j]) {
-            return false
-        }
-        i++
-        j--
+    const sanitizeWord = s.replace(/[^A-Za-z0-9]/gi, '').toLowerCase() 
+    
+    let left = 0, right = sanitizeWord.length-1
+    while(left < right){
+        if(sanitizeWord[left]!== sanitizeWord[right].toLowerCase() ) return false
+        left ++
+        right--
     }
     return true
 }
+
+let test = isPalindrome('Kfook')
+console.log(test)
+
+// Output:
+// false
