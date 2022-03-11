@@ -48,7 +48,7 @@ var isPalindrome = function(s) {
     let left = 0, right = sanitizeWord.length-1
     while(left < right){
         if(sanitizeWord[left]!== sanitizeWord[right].toLowerCase() ) return false
-        left ++
+        left++
         right--
     }
     return true
