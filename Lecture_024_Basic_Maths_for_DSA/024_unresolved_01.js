@@ -1,5 +1,5 @@
 // 024_01_02_L.B_L_C_Couunt_Prime.js
-// Unable to replce the c++ vrector code 
+ // Unable to replce the c++ vrector code 
 
 let countPrimes = function(n){
     let cnt = 0
