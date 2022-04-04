@@ -1,3 +1,6 @@
+005 , 006 and 007  are not added. Need to add them 
+
+
 # B_DSA
 
 size = sizeof(a)
