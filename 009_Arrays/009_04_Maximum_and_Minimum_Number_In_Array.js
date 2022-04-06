@@ -4,7 +4,7 @@ console.log(Math.max(...numbers))
 
  // Output:
 // 12
-// 2
+
 
 
 
