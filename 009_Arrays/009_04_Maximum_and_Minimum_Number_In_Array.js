@@ -3,7 +3,8 @@ let numbers = [9,5,78,5,4,3343,6,8,7,56,1,5,6,86,6,]
 console.log(Math.max(...numbers))
 
  // Output:
- // 3343
+// 12
+// 2
 
 
 
