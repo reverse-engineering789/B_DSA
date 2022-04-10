@@ -1,3 +1,6 @@
+// 010_02_Find_Unique_Element.js
+
+
 let findUnique = (arr) => {
     let ans = 0
 
