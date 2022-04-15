@@ -14,7 +14,7 @@
         for (let offset = 1; offset <= partLen; offset++) {
             const chPart = part[partLen - offset]
             const chS = result[resultLen - offset]
-            if (chPart !== chS) return false
+                     if (chPart !== chS) return false
         }
         
         return true
