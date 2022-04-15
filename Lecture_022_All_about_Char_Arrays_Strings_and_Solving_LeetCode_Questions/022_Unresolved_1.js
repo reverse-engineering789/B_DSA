@@ -4,20 +4,30 @@
 
 let reverseString = (s) => {
     let st = 0
-    let e = s.length - 1
-    
-    while (st < e) {
-        (s[st++], s[e--] = s[e--], s[st++])
-    }
+    let e = s.length-1
+
+    while (st <= e) {
+          temp = s[st]
+        //   console.log(temp + ' temp')
+        //   console.log(s[st] +' s[t]')
+          s[st] = s[e] 
+          s[e] = temp
+        //   console.log(s[e] +' s[e]')
+        //   console.log(temp + ' temp2')
+          st++
+          e--
+          
  }
- 
- 
- let testCase = reverseString('Surya')
- 
- console.log(testCase)
+ console.log(s)
+}
+
+
+ let naame = 'surya'
+
+
 
 // Output: 
-// Undefined
+
 
 // c++ code:
 // #include<string>
@@ -35,4 +45,4 @@ let reverseString = (s) => {
 //             swap(s[st++], s[e--]);
 //         }
 //     }
-// };
+// }
