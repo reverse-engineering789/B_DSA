@@ -1,4 +1,4 @@
-// Problem: gitting undefined as the output, not able to get correct answer
+
 
 
 // code studio 
@@ -75,26 +75,22 @@ let reverseArray = (arr, m) => {
     }
 }
 
+let  printArray = (arr) => {
+    for(let i = 0; i < arr.length; i++){
+        console.log(arr[i])
+    }
+}
 let array = [1,2,3,4,5,6]
 
-let test = reverseArray(array, 3)
-
-console.log(test)
+reverseArray(array, 3)
+printArray(array)
 
 // Output:
-// undefined
+// 1
+// 2
+// 3
+// 4
+// 6
+// 5
 
-//-----------------------------------------------------------------------
 
-
-
-// c++ code: 
-
-// void reverseArray (vector<int> &arr , int m){
-//     int s = m + 1; e = arr.size()-1
-//        while (s <= e){
-//            swap (arr[s], arr[e])
-//            s++
-//            e--
-//        }
-// }
