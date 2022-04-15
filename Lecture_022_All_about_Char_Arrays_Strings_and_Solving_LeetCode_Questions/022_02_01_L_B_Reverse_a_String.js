@@ -1,36 +1,30 @@
-let reverseString = (s) => {
-   let st = 0
-   let e = s.length - 1
-   
-   while (st < e) {
-       (s[st++], s[e--] = s[e--], s[st++])
-   }
+// getting undefined as output:
+
+let reverse = (name) => {
+    let s = 0
+    let e = name.length -1
+
+    while(s < e){
+        temp = name[s]
+        name[s] = name[e]
+        name[e] = temp
+        name[s++]
+        name[e--]
+    }
 }
+let getLength = (arr) =>{
+    let count = 0
+      for (let i = 0; i < arr.length; i++){
+         count++
+     }
+      console.log(count)
+   }
+  
+  let givenStr = 'Surya'
+  getLength(givenStr)
 
 
-let testCase = reverseString('Surya')
+  console.log(givenStr)
+  console.log(reverse(givenStr))
 
-console.log(testCase)
-
-
-// Output: 
-// Undefined
-
-
-// c++ code:
-// #include<string>
-// #include<iostream>
-// #include<vector>
-// using namespace std;
-// class Solution {
-// public:
-
-//     void reverseString(vector<char>& s) {
-//         int st=0;
-//         int e = s.size()-1;
-
-//         while(st<e) {
-//             swap(s[st++], s[e--]);
-//         }
-//     }
-// };
+  
