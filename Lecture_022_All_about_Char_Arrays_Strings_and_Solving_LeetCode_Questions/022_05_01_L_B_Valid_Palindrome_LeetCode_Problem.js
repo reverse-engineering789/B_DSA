@@ -1,3 +1,6 @@
+// need to rearrange the code and add .toLowerCase() inbuit into the function
+
+
 // LeetCode: 
 
 // Valid Palindrome
@@ -55,10 +58,10 @@ else{
 }
 let checkPalindrome = function(a) {
     let s = 0;
-    let e = a.length()-1;
+    let e = a.length - 1;
 
     while(s<=e) {
-        if(a[s] != a[e])
+        if(a[s] !== a[e])
         {
             return 0;       
         }
@@ -74,13 +77,13 @@ let isPalindrome = function(s) {
       let i = 0
       let temp = ""
 
-      for (let j = 0; j < s.length(); j++){
+      for (let j = 0; j < s.length; j++){
           if (void(s[j])){
-              temp.push_back(s[j])
+              temp.push(s[j])
           }
      }
 
-     for(let j=0; j<temp.length(); j++) { 
+     for(let j=0; j< temp.length ; j++) { 
         temp[j] = toLowerCase(temp[j]);
     }
     
@@ -88,6 +91,10 @@ let isPalindrome = function(s) {
     return checkPalindrome(temp);
     
 }
+
+console.log(isPalindrome('Nuoon'))
+
+// Output:
 
 //---------------------------------------
 
