@@ -49,7 +49,7 @@ let check = (nums) => {
     return count<=1
 }
 
-let test = [2,2,2,2]
+let test = [2,1,3,4]
 
 let validate = check(test)
 
