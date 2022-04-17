@@ -1,4 +1,4 @@
-// getting undefined as the output:
+
 
 
 // Problem Qustion:
@@ -39,43 +39,60 @@
 
 
 
-let rotate = (nums, k) => {
-    let temp = (nums.length)
+// rotating the array and Printing the rotated array:
 
+
+const rotate = (nums, k) => {
+    let temp = []
     for (let  i = 0; i < nums.length; i++){
         temp[(i + k)%nums.length] = nums[i]
+         
     }
-    nums = temp
+      nums = temp
+      
+console.log(temp)
+
 }
 
 
-let Array = [1, 2, 3, 4, 5];
-let K = 1;
+const Array = [1, 2, 3, 4, 5];
+const K = 3;
 
-console.log(rotate(Array, K));
+rotate(Array, K)
 
-// c++ code: 
+// Output:
+// [ 3, 4, 5, 1, 2 ]
 
-// class Solution {
-//     public:
-//         void rotate(vector<int>& nums, int k) {
-          
-//         // just to practice the modulus approach
-//           int n = nums.size();
-//           vector<int> temp(n);
-          
-          
-//           for(int i =0;i<n;i++) {
-            
-//             temp[(i+k)%n] = nums[i];
-            
-//           }
-          
-          
-//           for(int i=0;i<nums.size();i++) 
-//           {
-//             nums[i] = temp[i];
-//           }
-          
-//         }
-//     };
+
+
+
+// ----------------------------------------------------------
+
+
+// printing the elements in the rotated array one by one:
+
+const rotate = (nums, k) => {
+    let temp = []
+    for (let  i = 0; i < nums.length; i++){
+        temp[(i + k)%nums.length] = nums[i]  
+    }
+      nums = temp
+
+      for (let i = 0; i < temp.length; i++){
+          console.log(temp[i])
+      }
+}
+
+
+const Array = [1, 2, 3, 4, 5];
+const K = 3;
+
+rotate(Array, K)
+
+
+// Output:
+// 3
+// 4
+// 5
+// 1
+// 2
