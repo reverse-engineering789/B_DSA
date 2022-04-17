@@ -1,4 +1,5 @@
 // without arrow funcions
+// Finding the power of a number
 
 let surya = function(a,b){
     let ans = 1
@@ -9,8 +10,12 @@ let surya = function(a,b){
 }
 
 
-let answer = surya (2,4)
+let answer = surya (3,2)
   console.log('The answer is: ' + answer)
+
+
+//   Ouput:
+// The answer is: 9
 
 
 
