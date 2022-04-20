@@ -17,7 +17,7 @@ if (isPrime === 0){
 }
 
 
-// Output:
+// Output:f
 // Is a Prime Number
 // // -------------------------------------------
 
