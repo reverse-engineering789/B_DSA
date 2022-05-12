@@ -176,14 +176,14 @@ console.log(bubbleSort([37,45,29,8,12,88,-3]))
 
 
 
-// ES6: solution 
+
 
 
 
 
 // --        --         --
 
-
+// ES6: solution 
 function bubbleSort(arr){
     const swap = (arr, idx1, idx2) => {
         [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]];
