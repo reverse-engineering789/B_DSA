@@ -21,7 +21,7 @@ let print = (v) => {
     }
 }
 
-let v1 = [11,7,3,12,4]
+const v1 = [11,7,3,12,4]
 reverse(v1)
 print(v1)
 
