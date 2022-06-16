@@ -80,3 +80,31 @@ while ( i < n){
 // prime for 12
 // prime for 13
 
+// using for loop:
+
+const n  = 14
+
+for (let i = 1; i <= n; i++){
+    if (n % i === 0){
+        console.log(`not prime for ${i}`)
+    }else{
+        console.log(`Prime for ${i}`)
+    }
+}
+
+
+// Output:
+// not prime for 1
+// not prime for 2
+// Prime for 3
+// Prime for 4
+// Prime for 5
+// Prime for 6
+// not prime for 7
+// Prime for 8
+// Prime for 9
+// Prime for 10
+// Prime for 11
+// Prime for 12
+// Prime for 13
+// not prime for 14
