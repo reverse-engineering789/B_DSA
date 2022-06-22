@@ -2,14 +2,14 @@ let a = 4
 let b = 5
 
 console.log('a & b ==> ' + (a & b))
-console.log('a | b ==> ' + (a & b))
+console.log('a | b ==> ' + (a | b))
 console.log('~a ==> ' + ~a)
 console.log('a ^ b ==> ' + (a ^ b))
 
 
 // Output:
 // a & b ==> 4
-// a | b ==> 4
+// a | b ==> 5
 // ~a ==> -5
 // a ^ b ==> 1
 
@@ -19,12 +19,12 @@ console.log('a ^ b ==> ' + (a ^ b))
 
 
 console.log('17 >> 1 ==>' + (17>>1))
-console.log('17 >> 2 ==>' + (17>>1))
+console.log('17 >> 2 ==>' + (17>>2))
 console.log('19 << 1 ==>' + (19<<1))
 console.log('21 << 2 ==>' + (21<<2))
 
 // Output:
 // 17 >> 1 ==>8
-// 17 >> 2 ==>8
+// 17 >> 2 ==>4
 // 19 << 1 ==>38
 // 21 << 2 ==>84
