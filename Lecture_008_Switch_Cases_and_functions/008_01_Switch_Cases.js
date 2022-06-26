@@ -1,95 +1,95 @@
-let num = 2 
+// let num = 2 
 
-switch (num){
-   case 1: 
-      console.log('First')
-      break;
+// switch (num){
+//    case 1: 
+//       console.log('First')
+//       break;
 
-   case 2:
-       console.log('second')
-    break;
+//    case 2:
+//        console.log('second')
+//     break;
 
-    case 3:
-        console.log('thee')
-     break;
+//     case 3:
+//         console.log('thee')
+//      break;
 
-     default:
-        console.log('Its a default case')
+//      default:
+//         console.log('Its a default case')
  
-}
+// }
 
-// Output:
-// second
-
-
-
-
-//------------------------------------------------------------
+// // Output:
+// // second
 
 
 
-// check for charectors 
 
-let num = 'A'
+// //------------------------------------------------------------
 
-switch (num){
-   case 1: 
-      console.log('First')
-      break;
 
-   case 'A':
-       console.log('second')
-    break;
 
-    case 3:
-        console.log('thee')
-     break;
+// // check for charectors 
 
-     default:
-        console.log('Its a default case')
+// let num = 'A'
+
+// switch (num){
+//    case 1: 
+//       console.log('First')
+//       break;
+
+//    case 'A':
+//        console.log('second')
+//     break;
+
+//     case 3:
+//         console.log('thee')
+//      break;
+
+//      default:
+//         console.log('Its a default case')
  
-}
+// }
 
 
-// Output:
-// second
+// // Output:
+// // second
 
 
-//--------------------------------------------------------------
-
-
-
-// nested switch statements
+// //--------------------------------------------------------------
 
 
 
-let num = 'A'
+// // nested switch statements
 
-switch (num){
-   case 1: 
-      console.log('First')
-      break;
 
-   case 'A': switch (num){
-       case 'A': console.log(`value of num is: ${num}`)
-       break;
-   }
-    break;
 
-    case 3:
-        console.log('thee')
-     break;
+// let num = 'A'
 
-     default:
-        console.log('Its a default case')
+// switch (num){
+//    case 1: 
+//       console.log('First')
+//       break;
+
+//    case 'A': switch (num){
+//        case 'A': console.log(`value of num is: ${num}`)
+//        break;
+//    }
+//     break;
+
+//     case 3:
+//         console.log('thee')
+//      break;
+
+//      default:
+//         console.log('Its a default case')
  
-}
+// }
 
-// Output:
-// value of num is: A
+// // Output:
+// // value of num is: A
 
 
-// -----------------------------------------------------------
+// // -----------------------------------------------------------
 
 
 
