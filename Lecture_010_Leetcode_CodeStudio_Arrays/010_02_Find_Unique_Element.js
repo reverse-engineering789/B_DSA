@@ -1,4 +1,5 @@
-
+// Not giving proper output for the test case:
+// console.log('the unique element in test3 is: ' + findUnique(test3))
 
 let findUnique = (arr) => {
     let ans = 0
