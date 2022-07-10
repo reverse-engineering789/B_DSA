@@ -71,7 +71,7 @@ rotate(Array, K)
 
 // printing the elements in the rotated array one by one:
 
-const rotate = (nums, k) => {
+const rotate1 = (nums, k) => {
     let temp = []
     for (let  i = 0; i < nums.length; i++){
         temp[(i + k)%nums.length] = nums[i]  
@@ -84,10 +84,10 @@ const rotate = (nums, k) => {
 }
 
 
-const Array = [1, 2, 3, 4, 5];
-const K = 3;
+const Array1 = [1, 2, 3, 4, 5];
+const K1 = 3;
 
-rotate(Array, K)
+rotate1(Array1, K1)
 
 
 // Output:
