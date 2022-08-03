@@ -16,3 +16,7 @@ let getLength = (arr) =>{
 
 
 getLength('Surya')
+
+
+// Output: 
+// 5
