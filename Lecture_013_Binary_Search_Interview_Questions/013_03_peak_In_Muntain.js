@@ -1,4 +1,5 @@
-// peak in mountain array // leetcode 
+
+// // peak in mountain array // leetcode 
 
 
 
@@ -34,7 +35,10 @@ console.log(check2)
 console.log(check3)
 
 
-// Output:
-// 5
-// 2
-// 2
+// // Output:
+// // 5
+// // 2
+// // 2
+
+
+// // -----------------------------------------------------------
