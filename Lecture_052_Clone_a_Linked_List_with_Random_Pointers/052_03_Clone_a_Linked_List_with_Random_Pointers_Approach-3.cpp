@@ -1,3 +1,11 @@
+// I verified the code thousand times, but still i am not able to 
+// run and submit the code in gfg 
+// its reallyyyy * 10000 times hard to identify the problem.
+
+
+
+
+
 // Clone a linked list with next and random pointer
 // Hard 
 // Accuracy: 64.8% 
@@ -335,15 +343,16 @@ class Solution{
          temp = head;
          while(temp != NULL){
             if(temp -> next != NULL){
-            // temp -> next -> arb = temp -> arb ? temp -> arb -> next: temp -> arb;
+            temp -> next -> arb = temp -> arb ? temp -> arb -> next: temp -> arb;
             // OR
-            temp -> next -> arb = temp -> arb -> next;
-            }else{
-                temp -> next = temp -> arb;
+            //  if(temp -> arb != NULL){
+            // temp -> next -> arb = temp -> arb -> next;
+            // }else{
+            //     temp -> next = temp -> arb;
+            //          }
             }
             temp = temp -> next -> next;
-         }
-         
+    }
     // step 4: revert changes done in step 2
         originalNode = head;
         cloneNode = cloneHead;
@@ -358,6 +367,6 @@ class Solution{
             cloneNode = cloneNode -> next;
         }
     // step 5: return ans
-       return cloneHead;
+       return cloneHead; 
     }
-}; 
+};  
