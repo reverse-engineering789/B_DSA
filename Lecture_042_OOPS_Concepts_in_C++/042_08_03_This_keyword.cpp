@@ -7,7 +7,7 @@ class Hero {
     int health;
 
     public:
-    char level;
+    char level;         
     
     // removing the bellow default:
     // Hero(){
