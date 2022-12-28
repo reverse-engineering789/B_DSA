@@ -1,0 +1,1 @@
+default: cout << "It is default case" << endl;
