@@ -1,1 +1,1 @@
-default: cout << "It is default case" << endl;
+// default: cout << "It is default case" << endl;
